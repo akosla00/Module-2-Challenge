@@ -1,3 +1,28 @@
 body {
-    font-family: arial;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    background: skyblue;
+}
+
+.name {
+    font-size: 70px;
+    color: rgb(32, 33, 109);
+    margin-top: 50px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.siteNav {
+    background: rgb(32, 33, 109);
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    width: 20%;
+    
 }
